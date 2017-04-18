@@ -7,7 +7,7 @@ public class testStringDemo10 extends TestCase {
 		str = new StringDemo();
 	}
 		public void testSmallString() {
-		assertEquals("含有空格的处理",str.smallString("A B"),"a b");
+		assertEquals("edit",str.smallString("A B"),"a b");
 		
 	}
 }
