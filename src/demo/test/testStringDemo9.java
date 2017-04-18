@@ -7,7 +7,7 @@ public class testStringDemo9 extends TestCase {
 		str = new StringDemo();
 	}
 		public void testSmallString() {
-		assertEquals("含有汉字的处理",str.smallString("爱A"),"爱a");
+		assertEquals("edit",str.smallString("editA"),"edita");
 		
 	}
 }
