@@ -7,6 +7,6 @@ public class testStringDemo1 extends TestCase {
 		str = new StringDemo();
 	}
 		public void testSmallString() {
-		assertEquals("一个字母变小写",str.smallString("A"),"a");
+		assertEquals("edit",str.smallString("A"),"a");
 	}
 }
