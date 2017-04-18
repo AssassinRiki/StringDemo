@@ -7,7 +7,7 @@ public class testStringDemo6 extends TestCase {
 		str = new StringDemo();
 	}
 		public void testSmallString() {
-		assertEquals("含有特殊字符的处理",str.smallString("，A"),"，a");
+		assertEquals("edit",str.smallString("锛孉"),"锛宎");
 		
 	}
 }
