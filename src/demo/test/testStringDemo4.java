@@ -7,7 +7,7 @@ public class testStringDemo4 extends TestCase {
 		str = new StringDemo();
 	}
 		public void testSmallString() {
-		assertEquals("º¬ÓÐÊý×ÖµÄ×Ö·û´®",str.smallString("A2D"),"a2d");
+		assertEquals("edit",str.smallString("A2D"),"a2d");
 		
 	}
 }
