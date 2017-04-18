@@ -7,7 +7,7 @@ public class testStringDemo5 extends TestCase {
 		str = new StringDemo();
 	}
 		public void testSmallString() {
-		assertEquals("全是数字的字符串",str.smallString("789"),"789");
+		assertEquals("edit",str.smallString("789"),"789");
 		
 	}
 }
